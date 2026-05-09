@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Creative Frontend Showcase</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <video class="hero__video" autoplay loop muted playsinline>
+        <source
+          src="https://cdn.coverr.co/videos/coverr-aerial-view-of-mountains-1579/1080p.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="hero__overlay"></div>
+      <div class="hero__content glass">
+        <p class="eyebrow">Welcome to my portfolio</p>
+        <h1>Creative Frontend Portfolio</h1>
+        <p>
+          I design responsive HTML + CSS experiences with modern aesthetics,
+          smooth motion, and clear visual hierarchy.
+        </p>
+        <a class="btn" href="#projects">My Projects</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="projects" id="projects">
+        <div class="section-head">
+          <h2>My Projects</h2>
+          <p>Explore four unique frontend-only website concepts.</p>
+        </div>
+
+        <div class="project-grid">
+          <a class="project-card glass" href="project1/index.html">
+            <div class="project-preview preview-1" aria-hidden="true"></div>
+            <div class="project-body">
+              <h3>Neon Landing Page</h3>
+              <p>Futuristic neon gradients with bold hero typography.</p>
+            </div>
+          </a>
+
+          <a class="project-card glass" href="project2/index.html">
+            <div class="project-preview preview-2" aria-hidden="true"></div>
+            <div class="project-body">
+              <h3>Minimal Product Site</h3>
+              <p>Clean, elegant layout focusing on product storytelling.</p>
+            </div>
+          </a>
+
+          <a class="project-card glass" href="project3/index.html">
+            <div class="project-preview preview-3" aria-hidden="true"></div>
+            <div class="project-body">
+              <h3>Editorial Blog Concept</h3>
+              <p>Magazine-inspired composition with modern typography.</p>
+            </div>
+          </a>
+
+          <a class="project-card glass" href="project4/index.html">
+            <div class="project-preview preview-4" aria-hidden="true"></div>
+            <div class="project-body">
+              <h3>Travel Experience Page</h3>
+              <p>Immersive destination showcase with layered gradients.</p>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Creative Portfolio. Built with HTML & CSS only.</p>
+      <nav aria-label="Social links" class="social-links">
+        <a href="#" aria-label="GitHub">GitHub</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="Dribbble">Dribbble</a>
+      </nav>
+    </footer>
+  </body>
+</html>
